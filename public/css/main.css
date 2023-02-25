@@ -1,0 +1,119 @@
+* {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.header{
+    width: 100%;
+    height: 115px;
+    background: rgb(255, 255, 255);
+    color:  #2A7AE4;
+    display: flex;
+    justify-content: center;
+}
+
+.header__bar{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo{
+    font-size: 50px;
+    margin: 0 32px 0 0;
+    color: #2A7AE4;
+}
+.header__logo:link, .header__logo:visited, .header__logo:hover, .header__logo:active{
+    text-decoration: none;
+}
+
+.header___search_logo{
+    display: flex;
+    align-items: center;
+}
+
+.header__search{
+    outline: none;
+    border: none;
+    border-radius: 20px 0px 0 20px;
+    background: #F5F5F5;
+    width: 280px;
+    height: 40px;
+    color: #A2A2A2;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.header__btn__buscar{
+    border: none;
+    border-radius: 0 20px 20px 0;
+    background: #F5F5F5;
+    color: #A2A2A2;
+    width: 40px;
+    height: 40px;
+}
+
+.header__search_btn{
+    opacity: 60%;
+}
+
+.header__btn_login{
+    background: #FFFFFF;
+    border: 1px solid #2A7AE4;
+    width: 100px;
+    height: 40px;
+    color: #2A7AE4;
+    font-weight: 300;
+}
+
+.destacados{
+    display: flex;
+    width: 100%;
+    height: 352px;
+    background-image: url('/public/img/destacados.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.destacados__galeria{
+    width: 100%;
+    height: 250px;
+    margin: 180px 10% 0 10%;
+}
+
+.destacados__info{
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    gap: 5px;
+}
+
+.destacados__info_titulo{ 
+    font-size: 52px;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px #000000;
+}
+
+.destacados__info_descripcion{
+    font-size: 22px;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px #000000;
+}
+
+.ir_a_btn{
+    background: #2A7AE4;
+    border: 1px solid #FFFFFF;
+    width: 100px;
+    height: 40px;
+    color: #2A7AE4;
+}
+
+.destacados__btn_ver{
+    font-size:  16px;
+    color: #FFFFFF;
+}
+
+.destacados__btn_ver:link, .destacados__btn_ver:visited, .destacados__btn_ver:hover, .destacados__btn_ver:active {
+    text-decoration: none;
+}
