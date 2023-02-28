@@ -108,8 +108,9 @@
     border: 1px solid #FFFFFF;
     width: 120px;
     height: 40px;
-    color: #2A7AE4;
+    color: #ffffff;
     font-weight: 100;
+    font-size: 16px;
 }
 
 .destacados__btn_ver{
@@ -180,6 +181,7 @@
     width: 100%;
     margin-left: auto;
     margin-right: auto;
+    object-fit: contain;
     
 }
 
@@ -191,4 +193,95 @@
     font-family: 'Raleway', sans-serif;
     font-size:  16px;
     font-weight: bold;
+}
+
+.footer{
+    margin: 64px 0 0 0;
+    background:#EAF2FD;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer_form{
+    min-height: 350px;
+    width: 80%;
+    display: flex;
+    gap: 10%;
+    margin: 64px 0 64px 0;
+}
+
+.footer_credits{
+    color: #464646;
+    min-height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+}
+
+.footer__logo{
+    width: 15%;
+}
+
+.footer__info{
+    width: 15%;
+}
+
+.footer__info_tittle{
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.footer__form_form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 16px;
+}
+
+.footer__form_message{
+    display: flex;
+    width: 50%;
+}
+
+.footer__form_tittle{
+    color: #464646;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.footer__form_name{
+    min-height: 50px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: solid 1px;
+    border-color: #cacaca;
+}
+
+
+.footer__form_message_textarea{
+    font-size: 16px;
+    height: 80px;
+    resize: none;
+    border-radius: 4px;
+    border-color: #cacaca;
+}
+
+.footer__form_name:focus{
+    outline: none;
+}
+
+.footer__form_message_textarea:focus{
+    outline: none;
+}
+
+.footer__info_a_link:link, .footer__info_a_link:active, .footer__info_a_link:visited, .footer__info_a_link:hover {
+    text-decoration: none;
+    color: #464646;
 }
