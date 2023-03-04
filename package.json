@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "firebase": "^9.17.2"
+  },
+  "type": "module"
+}
+
+  
